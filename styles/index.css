@@ -78,19 +78,29 @@ nav ul li a {
 .content {
     padding: 20px;
 }
-.image-container {
+
+.pancake-section {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    flex-wrap: wrap;
+    margin: 20px;
 }
-
-.image-container img {
+.pancake {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.pancake img {
     width: 100%;
-    max-width: 1200px;
-    height: 400px;
-    border-radius: 15px; 
+    border-radius: 10px;
 }
-
+.pancake h2 {
+    color: #ff6600;
+}
 .table-container {
     width: 45%; 
     margin-left: auto;
