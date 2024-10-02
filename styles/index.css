@@ -79,11 +79,40 @@ nav ul li a {
     padding: 20px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру, если нужно */
+/* Высота контейнера, чтобы кнопка была по центру страницы */
+}
+
+.order-button {
+    background: linear-gradient(to right, #ff3131, #ff914d); /* Градієнтний фон */
+    border: none;
+    padding: 10px 20px;
+    width: 200px; /* Ширина кнопки */
+    height: 67px; /* Висота кнопки */
+    font-size: 18px;
+    color: #fff;
+    border-radius: 25px; /* Заокруглені краї */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Ефекти при наведенні */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */
+}
+
+.order-button:hover {
+    background: linear-gradient(to right, #0097b2, #7ed957); /* Зміна кольору на hover */
+    transform: translateY(-2px); /* Підняття кнопки при наведенні */
+}
+
+.order-button:active {
+    transform: translateY(0); /* Повернення до початкового положення при натисканні */
+}
+
 .pancake-section {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    margin: 20px;
+  
 }
 .pancake {
     background-color: #fff;
@@ -92,7 +121,7 @@ nav ul li a {
     margin: 10px;
     padding: 20px;
     width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 .pancake img {
     width: 100%;
