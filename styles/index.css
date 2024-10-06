@@ -81,32 +81,31 @@ nav ul li a {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Горизонтальное выравнивание по центру */
-    align-items: center; /* Вертикальное выравнивание по центру, если нужно */
-/* Высота контейнера, чтобы кнопка была по центру страницы */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .order-button {
-    background: linear-gradient(to right, #ff3131, #ff914d); /* Градієнтний фон */
+    background: linear-gradient(to right, #ff3131, #ff914d); 
     border: none;
     padding: 10px 20px;
-    width: 200px; /* Ширина кнопки */
-    height: 67px; /* Висота кнопки */
+    width: 200px; 
+    height: 67px; 
     font-size: 18px;
     color: #fff;
-    border-radius: 25px; /* Заокруглені краї */
+    border-radius: 25px; 
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease; /* Ефекти при наведенні */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь */
+    transition: background 0.3s ease, transform 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .order-button:hover {
-    background: linear-gradient(to right, #0097b2, #7ed957); /* Зміна кольору на hover */
-    transform: translateY(-2px); /* Підняття кнопки при наведенні */
+    background: linear-gradient(to right, #0097b2, #7ed957); 
+    transform: translateY(-2px); 
 }
 
 .order-button:active {
-    transform: translateY(0); /* Повернення до початкового положення при натисканні */
+    transform: translateY(0); 
 }
 
 .pancake-section {
